@@ -1,5 +1,5 @@
 # form-with-email-validator
-simple form web-page with email validator 
+Simple form web-page with email validator 
 
 Validate email if email have '@' in it and '.' in it and also checks if '@' comes before '.' , checks there's minimum one index between '@' and '.' , and also checks if there is one more index after '.'
 
