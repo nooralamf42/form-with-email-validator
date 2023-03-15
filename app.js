@@ -27,7 +27,7 @@ function checkEmail(email){
         }
     }
     if (verifier1Index != null && verifier2Index != null){
-        if(verifier2Index - verifier1Index >= 2 && verifier2Index !== email.length-1){
+        if(verifier2Index - verifier1Index >= 2 && verifier2Index !== email.length-1 && verifier1Index !==0){
             return true
         }
         else{
