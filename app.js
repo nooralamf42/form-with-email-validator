@@ -1,11 +1,11 @@
 let submitBtn = document.getElementsByClassName("btn")[0]
 let inputData = document.getElementsByName("input")
 
-inputData[2].addEventListner("keydown", (keyEvent) =>{
+inputData[2].addEventListener("keydown", (keyEvent) =>{
     if(keyEvent.key == "Enter"){
         checkInfo()
     }
-}
+})
 
 function submitName(){
     submitBtn.innerText = "Submitted"
