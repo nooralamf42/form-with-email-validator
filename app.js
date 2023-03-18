@@ -1,6 +1,12 @@
 let submitBtn = document.getElementsByClassName("btn")[0]
 let inputData = document.getElementsByName("input")
 
+inputData[2].addEventListner("keydown", (keyEvent) =>{
+    if(keyEvent.key == "Enter"){
+        checkInfo()
+    }
+}
+
 function submitName(){
     submitBtn.innerText = "Submitted"
     submitBtn.style.backgroundColor = "rgb(17, 220, 21)"
